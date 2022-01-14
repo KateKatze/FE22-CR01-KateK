@@ -1,0 +1,284 @@
+html, body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.first{
+    background-color: black;
+}
+
+.first img {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#text{
+    background-color: white;
+    position: absolute;
+    width:850px;
+    height: 30px;
+    top: 25px;
+    right:23%;
+    border-style: none;
+    border-radius: 2px;
+}
+
+.login{
+    background-color: darkred;
+    position: absolute;
+    width:100px;
+    height:45px;
+    top:17px;
+    right:13%;
+    border-radius: 15%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    font-size: medium;
+}
+
+.login:hover{
+    background-color: green;
+}
+
+.signup{
+    background-color: darkred;
+    position: absolute;
+    width:100px;
+    height:45px;
+    top:17px;
+    right:4%;
+    border-radius: 15%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    font-size: medium;
+}
+
+.signup:hover{
+    background-color: green;
+}
+
+.first a{
+    text-decoration: none;
+    color: white;
+}
+
+.intro{
+    background-image: url(/pics/keyboard.jpg);
+    background-size: 100% 100%;
+    color: white;
+    height: 335px;
+}
+
+.header{
+    position:absolute;
+    top: 280px;
+    right: 48%;
+}
+
+.header h1{
+    margin-bottom: -15px;
+}
+
+.header img{
+    margin-top: -30px;
+}
+
+.info{
+    margin-top: -35px;
+    padding-bottom: 25px;
+    background-color: #1A1818;
+    text-align: center;
+    padding-top: 0%;
+    height: 350px;
+    z-index:0;
+}
+
+.info h1{
+    font-size: xxx-large;
+    padding-top: 35px;
+    color: white;
+    text-shadow: 2px 2px #969595;
+}
+
+.frontend{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    right: 65%;
+    background-color: #235A8D;
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.frontend p{
+    margin-bottom: -15px;
+}
+
+.backend{
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    background-color: #235A8D;
+    height: 200px;
+    width: 290px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.backend p{
+    margin-bottom: -15px;
+}
+
+.projects{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    background-color: #235A8D;
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.projects p{
+        margin-bottom: -15px;
+}
+
+hr{
+    margin-top:-10px;
+    width:80%;
+    margin-bottom:-10px;
+}
+
+.footer{
+    position:relative; 
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+}
+
+.footer img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer nav{
+    margin-bottom: -10px;
+}
+
+.footer a:hover {
+    color:green;
+}
+
+.footer a:visited {
+    color:grey;
+}
+
+.footer p{
+    font-style: italic;
+}
+
+.footer h4{
+    font-weight: normal;
+    margin-bottom: -8px;
+}
+
+.maincontent{
+    background-color: #1A1818;
+    color: white;
+    padding:10px;
+    padding-left: 25px;
+}
+
+.maincontent .history{
+    color: white;
+    text-align: center;
+}
+
+.maincontent .history p{
+    color:darkred;
+}
+
+.maincontent h3{
+    color:darkred;
+    font-style: italic;
+    font-weight: normal;
+}
+
+button{
+    padding: 6px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+.firstbutton{
+    position: absolute;
+    top: 702px;
+    left: 290px;
+    z-index:3;
+
+}
+
+.secondbutton{
+    position: absolute;
+    top: 702px;
+    left: 640px;
+    z-index:3;
+}
+
+.thirdbutton{
+    position: absolute;
+    top: 702px;
+    left: 990px;
+    z-index:3;
+}
+
+.history h1{
+    font-size: xxx-large;
+}
+
+.history p{
+    margin-top:-20px;
+    padding-bottom: 10px;
+}
+.border{
+    width: 100%;
+    color: red;
+}
+
+.weare table, th, td {
+        text-align: center;
+        border-style: hidden;
+        border-collapse: collapse;
+}
+
+.favtable table, th, td {
+        text-align: center;
+        border: 3px solid black;
+        border-collapse: collapse;
+}
